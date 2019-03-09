@@ -20,7 +20,7 @@ https://www.npmjs.com/package/ethereumjs-testrpc/tutorial
 2. Open another terminal and go to the directory that you have download this in.
 3. Execute the `init.js` file using the command line `node init.js`.
 4. After about 10-15 seconds, we obtain a 20 byte address. This is the address of the compiled smart contract.
-5. Go to the file `root\js\contractDetails.js` and open it using a text editor.
+5. Go to the file `MY KYC\js\csmartontractdetails.js` and open it using a text editor.
 6. Edit the first line denoting the contract instance address given by the variable `contractAddress` to the 20 byte address obtained in step `4`.
 7. Now the application is ready for use. Make sure the terminal with `testrpc` is up and running. It acts as the local ethereum test network.
-8. You can also use other test nets to deploy this smart contract like Ganache-Cli, etc.
+8. You can also use other test nets to deploy this smart contract like Ganache-Cli, etc. 
