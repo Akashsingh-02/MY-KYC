@@ -1,5 +1,5 @@
 # MY KYC
-A KYC registry prototype based on blockchain technology.
+A prototype based on blockchain technology.
 
 # Project description
 Know your customer (KYC) checks are currently an extremely time consuming and costly affair for which millions of dollars every year to keep up with KYC regulations or risk being fined heavily by the banls. Through MY KYC it shall get simplified to a large extent.
