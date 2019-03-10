@@ -12,7 +12,7 @@ This regsitry prototype was build over a local test-net. So, there are a few lim
 The system must have `NodeJS` and `ethereumjs-testrpc` installed, npm version is `>= 5.6.0` and node version is `>= 9.4.0`. Check the version numbers by using the terminal commands `node -v` and `npm -v`. Install `testrpc` using the command line `npm install -g ethereumjs-testrpc` in linux.
 
 Links - 
-https://github.com/ethereumjs/testrpc  
+https://github.com/ethereumjs/testrpc
 https://www.npmjs.com/package/ethereumjs-testrpc/tutorial
 
 # Instructions to run
@@ -20,7 +20,8 @@ https://www.npmjs.com/package/ethereumjs-testrpc/tutorial
 2. Open another terminal and go to the directory that you have download this in.
 3. Execute the `init.js` file using the command line `node init.js`.
 4. After about 10-15 seconds, we obtain a 20 byte address. This is the address of the compiled smart contract.
-5. Go to the file `MY KYC\js\csmartontractdetails.js` and open it using a text editor.
+5. Go to the file `MY KYC\js\smartontractdetails.js` and open it using a text editor.
 6. Edit the first line denoting the contract instance address given by the variable `contractAddress` to the 20 byte address obtained in step `4`.
 7. Now the application is ready for use. Make sure the terminal with `testrpc` is up and running. It acts as the local ethereum test network.
 8. You can also use other test nets to deploy this smart contract like Ganache-Cli, etc. 
+9. There are certain places where you will have to update the 20 byte address in the sol, HTML and JavaScript file for running the `testrpc`.
